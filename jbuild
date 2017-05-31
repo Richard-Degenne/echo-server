@@ -2,7 +2,7 @@
 
 (executable
   (
-    (name echo)
+    (name echo-server)
     (libraries
       (lwt.unix core)
     )
@@ -14,7 +14,7 @@
     (section bin)
     (files
       (
-        (echo.exe as echo-server)
+        (echo-server.exe as echo-server)
       )
     )
   )
