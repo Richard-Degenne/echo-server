@@ -1,0 +1,21 @@
+(jbuild_version 1)
+
+(executable
+  (
+    (name echo)
+    (libraries
+      (lwt.unix core)
+    )
+  )
+)
+
+(install
+  (
+    (section bin)
+    (files
+      (
+        (echo.exe as echo-server)
+      )
+    )
+  )
+)
