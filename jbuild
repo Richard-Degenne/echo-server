@@ -14,7 +14,7 @@
     (section bin)
     (files
       (
-        (echo-server.exe as echo-server)
+        (echo-server.exe as run)
       )
     )
   )
