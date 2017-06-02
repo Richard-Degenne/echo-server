@@ -13,7 +13,7 @@ install: [
   ["jbuilder" "install"]
 ]
 depends: [
-  "core"
+  "core" {>= "v0.9"}
   "lwt"
   "jbuilder" {build}
 ]
