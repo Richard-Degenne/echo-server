@@ -1,0 +1,10 @@
+lib: [
+  "_build/install/default/lib/echo-server/META" {"META"}
+  "_build/install/default/lib/echo-server/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/run" {"run"}
+]
+doc: [
+  "_build/install/default/doc/echo-server/README.md"
+]

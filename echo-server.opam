@@ -6,7 +6,7 @@ authors: "Richard Degenne <richard.degenne@perfect-memory.com>"
 homepage: "blog.richarddegenne.fr"
 license: "GPL"
 build: [
-  ["jbuilder" "build" "echo.exe"]
+  ["jbuilder" "build"]
 ]
 install: [
   ["jbuilder" "build" "@install"]
