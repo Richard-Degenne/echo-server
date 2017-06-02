@@ -7,10 +7,7 @@ homepage: "blog.richarddegenne.fr"
 license: "GPL"
 build: [
   ["jbuilder" "build"]
-]
-install: [
   ["jbuilder" "build" "@install"]
-  ["jbuilder" "install"]
 ]
 depends: [
   "core" {>= "v0.9"}
